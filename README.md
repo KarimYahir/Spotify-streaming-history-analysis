@@ -1,5 +1,9 @@
 # Spotify Streaming History Analysis 
 
+<p align="center">
+  <img src="dashboard/dashboard_preview.jpg" alt="Spotify Dashboard" width="900">
+</p>
+
 ## Project Overview
 
 **How can raw Spotify streaming data be transformed into meaningful insights using Python and data visualization?**
