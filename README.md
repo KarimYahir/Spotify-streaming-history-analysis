@@ -1,41 +1,31 @@
-# Spotify-streaming-history-analysis
+# Spotify Streaming History Analysis 
 
-Personal data analysis project using Spotify streaming history data from 2024. Data cleaning, transformation with Pandas, descriptive statistics, and dashboard creation with Excel.
+## Project Overview
 
-# Spotify Listening Analysis
+**How can raw Spotify streaming data be transformed into meaningful insights using Python and data visualization?**
 
-This project analyzes my personal Spotify streaming history.
+This project analyzes a personal Spotify Extended Streaming History dataset corresponding to 2024. The original listening history was requested directly from Spotify and provided as raw JSON files. These files were cleaned, transformed, and consolidated into a structured CSV dataset using Python, enabling further statistical analysis and visualization.
 
-## Objectives
+The project implements a complete data analysis workflow, including:
 
-- Convert Spotify JSON exports into structured datasets.
-- Clean and transform the data using Pandas.
-- Explore listening habits through descriptive statistics.
-- Create visualizations and dashboards.
+- Data extraction and preprocessing from raw JSON files.
+- Data cleaning and transformation using **Pandas**.
+- Descriptive statistical analysis of listening behavior.
+- Genre enrichment through the **Spotify Web API**.
+- Data visualization with **Matplotlib** and **Seaborn**.
+- Development of an interactive dashboard in **Microsoft Excel** using Pivot Tables, Pivot Charts, and conditional formatting.
 
-## Tools
+Rather than focusing only on music preferences, the main objective of this project is to demonstrate an end-to-end data analysis pipeline. Starting from raw data, the project produces structured datasets, statistical summaries, visualizations, and an interactive dashboard that provide meaningful insights into listening behavior throughout 2024.
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Excel
+---
 
-## Main Questions
+## Project Objectives
 
-- Which artists do I listen to the most?
-- Which songs accumulate the most listening time?
-- How does my listening behavior change over time?
-- What genres dominate my listening history?
+- Transform raw Spotify JSON files into a structured dataset suitable for analysis.
+- Perform descriptive statistical analysis of listening activity during 2024.
+- Identify listening patterns across songs, artists, albums, genres, and time.
+- Generate clear visualizations to communicate the results.
+- Build an interactive dashboard that summarizes the main findings.
+- Demonstrate practical skills in data cleaning, data analysis, visualization, and API integration using Python.
 
-## Repository Structure
-
-data/
-notebooks/
-scripts/
-figures/
-dashboard/
-
-## Author
-
-Karim Yahir Vallejo Flores
+by Karim Yahir Vallejo Flores 
